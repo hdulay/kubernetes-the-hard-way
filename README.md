@@ -1,4 +1,19 @@
-# Kubernetes The Hard Way - Hubert's Work
+# Hubert
+ Using https://hub.docker.com/r/google/cloud-sdk
+
+ ```
+ $ make build
+ $ make run
+ ```
+
+** Error **
+```
+Error response from daemon: Get https://registry-1.docker.io/v2/google/cloud-sdk/manifests/latest: unauthorized: incorrect username or password
+```
+
+Change user name to the docker user name to resove this issue.
+
+# Kubernetes The Hard Way
 
 This tutorial walks you through setting up Kubernetes the hard way. This guide is not for people looking for a fully automated command to bring up a Kubernetes cluster. If that's you then check out [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine), or the [Getting Started Guides](http://kubernetes.io/docs/getting-started-guides/).
 
